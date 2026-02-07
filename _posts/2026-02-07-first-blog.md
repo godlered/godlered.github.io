@@ -1,0 +1,11 @@
+---
+layout: post
+title: "我的第一篇 GitHub Blog"
+date: 2026-02-07
+---
+
+# 為什麼我開始用 GitHub 寫 Blog
+
+這是一篇用 Markdown 撰寫的文章。
+
+之後我會在這裡記錄學習與思考
