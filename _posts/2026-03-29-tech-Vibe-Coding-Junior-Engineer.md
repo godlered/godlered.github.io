@@ -39,7 +39,7 @@ tags:
 新人工程師/資深工程師: 新人工程師遇到問題時可以找資深工程師協助(e.g. 架構不理解、改出的bug不知道怎麼收掉)  
   
 [SW design report - 參與者: 新人工程師/資深工程師/主管(opt.)]  
-新人工程師: 撰寫和報告SW design reoport  
+新人工程師: 撰寫和報告SW design report  
 資深工程師/主管(opt.): 檢視design是否合理且提供修改的建議  
   
 [Verification plan - 參與者: 新人工程師/使用者(opt.)/資深工程師/主管(opt.)]  
@@ -52,7 +52,7 @@ tags:
     - 例外測試(exception/assert/fail)  
     - 確保code line/function coverage(opt.)(這邊附註一下，雖然很重要，但的確在我們公司是opt.的)  
     - monkey test(opt.)  
-- Integartion Test:   
+- Integration Test:   
     - 和使用者整合測試，確保實際跑起來符合使用者需求  
     - 系統上線前的sanity/MTBF測試(opt.)  
   
@@ -87,7 +87,7 @@ AI: 進行coding和初步測試
 AI/資深工程師: 資深工程師code review和初步測試的test case review和確認初步測試的測試結果，如果有不符合預期的部分，要請AI在去修改後測試，AI真的收不掉的部分再進行手動介入  
   
 [SW design report - 參與者: AI/資深工程師/主管(opt.)]  
-AI/資深工程師: AI交出SW design reoport給資深工程師，資深工程師進行review，然後請AI將不合理處修正，AI真的收不掉的部分再進行手動介入，最後由資深工程師報告SW design reoport  
+AI/資深工程師: AI交出SW design report給資深工程師，資深工程師進行review，然後請AI將不合理處修正，AI真的收不掉的部分再進行手動介入，最後由資深工程師報告SW design report  
 主管(opt.): 檢視design是否合理且提供修改的建議  
   
 [Verification plan - 參與者: AI/使用者(opt.)/資深工程師/主管(opt.)]  
@@ -100,7 +100,7 @@ AI/資深工程師: AI交出verification plan給資深工程師，資深工程�
     - 例外測試(exception/assert/fail)  
     - 確保code line/function coverage(opt.)(這邊附註一下，雖然很重要，但的確在我們公司是opt.的)  
     - monkey test(opt.)  
-- Integartion Test:   
+- Integration Test:   
     - 和使用者整合測試，確保實際跑起來符合使用者需求  
     - 系統上線前的sanity/MTBF測試(opt.)  
     
@@ -109,7 +109,7 @@ AI/資深工程師: 依照verification plan - UT部分進行測試，AI進行測
 資深工程師/使用者: 依照verification plan - IT部分進行測試  
   
 [Verification report - 參與者: AI/使用者(opt.)/資深工程師/主管(opt.)]  
-AI/資深工程師: 整理verificatoin結果報告，資深工程師review報告，如果有不符合預期的部分，要請AI在去修改後測試，AI真的收不掉的部分再進行手動介入，最後由資深工程師進行verification結果報告  
+AI/資深工程師: 整理verification結果報告，資深工程師review報告，如果有不符合預期的部分，要請AI在去修改後測試，AI真的收不掉的部分再進行手動介入，最後由資深工程師進行verification結果報告  
 使用者(opt.)/主管(opt.): 檢查verification的結果理解是否合理(*1)，或是還有要補充或改進的(*2)  
 - *1: 假如測試結果就是看到結果輸出的資料符合預期，其他人可能會要求連前面log也檢查是否有錯誤或非預期的log  
 - *2: 假如測試很花時間，因為都是人工，其他人可能會依照測試的種類，給予怎麼最簡單的去做自動測試的方法  
